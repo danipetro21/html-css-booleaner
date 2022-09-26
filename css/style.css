@@ -68,10 +68,12 @@ thead th{
 #tr-1{
     background-color: skyblue;
 }
+
+
 tfoot{
     background-color: skyblue;
 }
-
+/* stile footer  */
 footer h4{
     color: grey;
 }
@@ -79,6 +81,7 @@ footer h4{
 footer img{
     position: relative;   
 }
+/* creazione immagine con titolo sopra */
 #monitor{
     color: white;
     width: 300px; 
