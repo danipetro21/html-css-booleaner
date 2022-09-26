@@ -1,6 +1,40 @@
+/* stile generale pagina */
+*{
+    margin: 0;
+    padding: 0;
+}
 /* stile header  */
-
 header{
     background-image: url(/img/pattern.png);
-    background-color: skyblue;
+    background-size: 500px;
+    background-color: blue;
+    width: auto;
+    height: 90px;
+}
+header img{
+    width: 170px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+/* stile genele div  */
+div{
+    padding: 10px;
+}
+/* stile titolo h1 principale */
+h1{
+    font-size: 40px;
+}
+/* inserimento stile titoletti h4 e h6 */
+#titoli h4{
+    color: grey;
+}
+#titoli h6{
+    color: grey;
+}
+
+/* spessore titoletti */
+#imgdescr h5{
+    font-weight: 100;
 }
