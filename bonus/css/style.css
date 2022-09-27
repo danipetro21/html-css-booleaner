@@ -9,7 +9,7 @@
 body {
     background-color: rgb(255, 254, 254);
     font-family: Arial, Helvetica, sans-serif;
-
+    
 }
 
 /* stile header  */
@@ -26,7 +26,7 @@ header {
 }
 /* dimensioni logo  */
 #logo {
-    width: 15%;
+    width: 150px;
     padding: 25px;
     margin-left: 100PX;
 }
