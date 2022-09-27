@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap');
+
+/* stile generale pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(255, 254, 254);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* stile header  */
+header {
+    /* background-image: url(/bonus/img/tim-3.jpeg); */
+    background: linear-gradient(to right, rgba(64, 64, 64, 0) 20%, rgb(87, 53, 53)), url(/bonus/img/tim-3.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 85%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: table;
+}
+/* dimensioni logo  */
+#logo {
+    width: 15%;
+    padding: 25px;
+    margin-left: 100PX;
+}
+/* stile titolo principale */
+h1 {
+    font-size: 3vw;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #484747;
+    height:50px;
+    text-align: left;
+	display:table-cell;
+	width:500px;
+    padding: 100px;
+
+}
+/* stile generale main */
+main{
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Abel', sans-serif;
+    font-size: 25px;
+}
+
+
+h2 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* evidenziatore  */
+.giallo{
+    background-color: yellow;
+}
+
+main div{
+    margin-top: 50px;
+}
+/* stile footer  */
+
+footer{
+    margin-top: 50px;
+    background-color: #232222;
+    height: 200px;
+}
+footer h3{
+    color: white;
+    padding: 20px;
+}
+
